@@ -26,35 +26,35 @@ IMAGE_HISTORY = True
 
 ds_collections = {
     'high_app_split': {
-        'test': '../data/test_anno/high_app_split.json',
+        'test': '../../data/test_anno/high_app_split.json',
         'metric': 'macro'
     },
     'high_device_split': {
-        'test': '../data/test_anno/high_device_split.json',
+        'test': '../../data/test_anno/high_device_split.json',
         'metric': 'macro'
     },
     'high_random_split': {
-        'test': '../data/test_anno/high_random_split.json',
+        'test': '../../data/test_anno/high_random_split.json',
         'metric': 'micro'
     },
     'high_task_split': {
-        'test': '../data/test_anno/high_task_split.json',
+        'test': '../../data/test_anno/high_task_split.json',
         'metric': 'macro'
     },
     'low_app_split': {
-        'test': '../data/test_anno/low_app_split.json',
+        'test': '../../data/test_anno/low_app_split.json',
         'metric': 'macro'
     },
     'low_device_split': {
-        'test': '../data/test_anno/low_device_split.json',
+        'test': '../../data/test_anno/low_device_split.json',
         'metric': 'macro'
     },
     'low_random_split': {
-        'test': '../data/test_anno/low_random_split.json',
+        'test': '../../data/test_anno/low_random_split.json',
         'metric': 'micro'
     },
     'low_task_split': {
-        'test': '../data/test_anno/low_task_split.json',
+        'test': '../../data/test_anno/low_task_split.json',
         'metric': 'macro'
     }
 }

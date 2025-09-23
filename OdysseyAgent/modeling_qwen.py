@@ -48,7 +48,7 @@ from qwen_generation_utils import (
 )
 from visual import VisionTransformer
 
-IMAGE_HISTORY = '../data/his_index.json'
+IMAGE_HISTORY = '/home/jovyan/workspace/GUI-Odyssey/data/his_index.json'
 
 USE_RESAMPLER = True
 
